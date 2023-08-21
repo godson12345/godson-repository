@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'trebuchet';
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(168, 166, 166);
+}
+.container{
+    max-width: 450px;
+    height: 460px;
+    margin: 0 28px;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+/* Shadow/xl */
+box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+}
+h2{
+    align-self: stretch;
+    color: var(--gray-900, #101828);
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 116.667% */
+line-height: 28px; /* 116.667% */
+}
+p{
+    color: var(--gray-500, #667085);
+    font-family: Space Grotesk;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input-box{
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+}
+.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.input-box input{
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+border: 1px solid var(--gray-300, #D0D5DD);
+background: var(--base-white, #FFF);
+
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+color: var(--neutral-50, #787579);
+font-family: Space Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.input-box input.duties{
+    text-align: left;
+}
+.input-box label{
+    color: var(--neutral-50, #787579);
+font-family: Space Grotesk;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+.input-box select{
+    position: absolute;
+    top: 280px;
+    left: 830px;
+    width: 20px;
+height: 20px;
+color: black;
+background: #FFF;
+border: none;
+}
+.reason-box input{
+    display: flex;
+    height: 111px;
+    width: 207%;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+border: 1px solid var(--gray-300, #D0D5DD);
+background: var(--base-white, #FFF);
+
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+color: var(--gray-500, #667085);
+font-family: Space Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.reason-box label{
+    color: var(--neutral-50, #787579);
+font-family: Space Grotesk;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+.button-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 470px;
+    padding-left: 150px;
+}
+.button-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 70px;
+    position: absolute;
+    top: 495px;
+    left: 310px;
+}
+.button1{
+    display: flex;
+padding: 10px 18px;
+justify-content: center;
+align-items: center;
+height: 15px;
+width: 120%;
+gap: 8px;
+flex: 1 0 0;
+border-radius: 8px;
+border: 1px solid var(--tertiary-50, #CB4955);
+background: var(--base-white, #FFF);
+
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.button1 a{
+    text-decoration: none;
+}
+.button2{
+    display: flex;
+padding: 10px 18px;
+justify-content: center;
+align-items: center;
+height: 15px;
+width: 120%;
+gap: 8px;
+flex: 1 0 0;
+border-radius: 8px;
+border: 1px solid var(--primary-50, #40AD75);
+background: var(--primary-50, #40AD75);
+
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.button1 button{
+    color: var(--tertiary-50, #CB4955);
+font-family: Space Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+background: #FFF;
+border: none;
+}
+.button2 button{
+    color: var(--base-white, #FFF);
+font-family: Space Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+background: #40AD75;
+border: none;
+}
